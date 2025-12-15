@@ -671,4 +671,13 @@ footer {
   text-align: center;
   padding: 15px;
   font-weight: bold;
+  line-height: 1.5;
+}
+
+
+/* Responsive adjustments for announcement banner */
+@media (max-width: 600px) {
+  .announcement-banner {
+    padding: 10px 6px;
+  }
 }
